@@ -31,10 +31,10 @@ return [
     ],
 
     'github' => [
-        'client_id' => env('GH_ID'),
+        'client_id'     => env('GH_ID'),
         'client_secret' => env('GH_SECRET'),
-        'redirect' => env('APP_URL') . '/oauth/github/callback',
-    ],
+        'redirect'      => env('APP_URL') . '/oauth/github/callback',
+    ]
 
 
 ];
